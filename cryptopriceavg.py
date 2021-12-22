@@ -11,11 +11,11 @@ import numpy as np
 
 # Place important information in 'info' variable
 
-# info(1) = Name of Asset
-# info(2) = Amount of Shares
-# info(3) = Cost of individual share
-# info(4) = Today's price of individual share
-# info(5) = Desired final averaged Price
+# info[0] = Name of Asset
+# info[1] = Amount of Shares
+# info[2] = Cost of individual share
+# info[3] = Today's price of individual share
+# info[4] = Desired final averaged Price
 
 info = np.array(['LSK',7.8,11.937,3.9448,5.0]); #array forces all entries to be same type() = str 
 
